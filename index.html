@@ -8,7 +8,50 @@
     <title>Autoservis</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Autoservis</h1>
+        <p>Vitejte v nasem autoservisu!
+            <br/>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, commodi in iure voluptate, repellendus doloribus eligendi optio placeat magnam eum est nihil quas fugiat dolorem eveniet hic, reiciendis dignissimos quis!
+            Tempora quasi at praesentium ducimus eius commodi alias nam ad odio, mollitia officia inventore minima. Sit reiciendis quisquam optio quos harum consequatur ullam odio, nostrum, eligendi similique qui nam tempore.
+            Itaque saepe, dicta blanditiis voluptatum a incidunt accusantium ipsa. Nostrum, mollitia amet facere temporibus illo, similique sit assumenda quasi voluptates tempore, cumque officiis expedita hic animi. Molestias, minima. Accusantium, sit.
+            Eligendi voluptas nam totam magni nostrum cum unde minima natus esse sint vitae, suscipit atque explicabo reprehenderit ab delectus harum recusandae voluptatibus soluta accusantium vero. Officia facilis dolore assumenda delectus?
+            Tempora modi, corporis error tenetur asperiores libero esse eaque nemo non blanditiis ea, id adipisci voluptatibus eveniet possimus officia repellat autem pariatur atque molestias aspernatur soluta aperiam praesentium. Iste, sequi.
+        </p>
+    </header>
+      <form class="AutoForm">
+        <h3><u>Pridani auta</u></h3>
+        <label for="znacka">Znacka:</label><br />
+        <input
+          type="text"
+          id="znacka"
+          name="znacka"
+          placeholder="znacka..."
+          required
+        /><br />
+        <label for="rok">Rok vyroby:</label><br />
+        <input
+          type="number"
+          id="rok"
+          name="rok"
+          placeholder="rok..."
+        /><br />
+        <label for="model">Model:</label><br />
+        <input type="text" id="model" name="model" required /><br />
+        <label for="kilometry">Najete kilometry:</label><br />
+        <input type="number" id="kilometry" name="kilometry" required /><br />
+        ><br />
+        <input type="submit" value="Pridat auto" id="submitAuto" />
+      </form>
+    </main>
+    <aside>
+      <h3><u>Funkce</u></h3>
+      <button id="vsechnaAuta" type="button">Vsechna auta</button><br />
+      <textarea class="vypis" rows="1" readonly></textarea><br />
+      <input id="autoD" name="autoD"></input><br />
+      <button id="deleteA" type="button">Smazat vybrane auto</button><br />
+    </aside>
+    <footer>Autoservis @2023</footer>
     <script src="script.js"></script>
 </body>
 </html>
